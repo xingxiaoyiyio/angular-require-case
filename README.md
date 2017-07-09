@@ -7,11 +7,14 @@
  目录结构较简单，index是项目启动首页，js存放项目的自定义js,libs存放第三方插件及工具，views存放页面；
  
  ![](https://github.com/xingxiaoyiyio/angular-require-case/raw/master/img/1.png) 
+ 
  ### 2、目录说明
  本项目搭建好的目录包含一个登录页面login,主界面home,三个home页面下的子页面disease、report、sports;
+ 
  ### 3、require资源加载
  本项目采用require加载静态资源，main.js是require加载资源的配置文件，内容如下：
- ```
+ 
+ ```javascript
  require.config({
     paths: {
         //angular
@@ -49,9 +52,12 @@ define(["angular", "angularAMD", "uiRouter", "angularCSS","app","jquery"
     //资源加载后手动启动项目angular的app
     return angularAMD.bootstrap(myApp);
 });
+
 ```
-###4、app.js配置angular
-```
+
+### 4、app.js配置angular
+
+```javascript
 //routeManager是路径配置文件
 define(['angular', 'routeManager'],
     function(angular,RouteManager) {
@@ -75,10 +81,13 @@ define(['angular', 'routeManager'],
         window.app = myApp;
         return myApp;
     });
+    
     ```
     
-    ###5、routeManager.js配置angular路由
-    ```
+    
+    ### 5、routeManager.js配置angular路由
+    
+    ```javascript
     define(["angularAMD"], function (angularAMD) {
     'use strict';
     var routeManager = function($stateProvider, $urlRouterProvider) {
