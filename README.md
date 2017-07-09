@@ -82,8 +82,7 @@ define(['angular', 'routeManager'],
     });
  ```
     
-    
-    ### 5、routeManager.js配置angular路由
+ ### 5、routeManager.js配置angular路由
     
  ```javascript
     define(["angularAMD"], function (angularAMD) {
