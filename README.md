@@ -54,7 +54,6 @@ define(["angular", "angularAMD", "uiRouter", "angularCSS","app","jquery"
 });
 
 ```
-
 ### 4、app.js配置angular
 
 ```javascript
@@ -81,13 +80,12 @@ define(['angular', 'routeManager'],
         window.app = myApp;
         return myApp;
     });
-    
-    ```
+ ```
     
     
     ### 5、routeManager.js配置angular路由
     
-    ```javascript
+ ```javascript
     define(["angularAMD"], function (angularAMD) {
     'use strict';
     var routeManager = function($stateProvider, $urlRouterProvider) {
@@ -115,7 +113,7 @@ define(['angular', 'routeManager'],
     }
 
     return routeManager;
-});
-```
+  });
+ ```
 
  
