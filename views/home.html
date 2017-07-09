@@ -1,0 +1,13 @@
+<div class="homeHeader">
+    这里是病人基本信息{{today}}
+</div>
+<div class="content-box">
+    <div class="menu-bar">
+        <ul>
+            <li ng-repeat="item in menus" ng-click="toSubPage(item.name)">{{item.label}}</li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div ui-view = ""></div>
+    </div>
+</div>
