@@ -114,5 +114,10 @@ define(['angular', 'routeManager'],
     return routeManager;
   });
  ```
+ 
+  ### 6、运行
+  git下载下来以后，在服务器中直接运行
+  web服务器，前端开发工具，sublime建议用 ，sublime-server ；vsCode建议用 live-server
+  
 
  
