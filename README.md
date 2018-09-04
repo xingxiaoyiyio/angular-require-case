@@ -117,7 +117,7 @@ define(['angular', 'routeManager'],
  
   ### 6、运行
   git下载下来以后，在服务器中直接运行
-  ![img]
+  ![img](https://github.com/xingxiaoyiyio/angular-require-case/blob/master/img/view.png)
   web服务器前端开发工具，
   sublime建议用 ，sublime-server ；
   vsCode建议用 live-server
